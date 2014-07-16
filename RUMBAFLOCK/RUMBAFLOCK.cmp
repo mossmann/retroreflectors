@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-stable date = Thu 03 Jul 2014 02:43:20 PM MDT
+
+BeginCmp
+TimeStamp = /53B5932D;
+Reference = D1;
+ValeurCmp = PIN;
+IdModule  = GSG-0603D;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B03194;
+Reference = P1;
+ValeurCmp = INPUT;
+IdModule  = GSG-50MIL-HEADER-1x2-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B03152;
+Reference = P2;
+ValeurCmp = ANTENNA;
+IdModule  = GSG-50MIL-HEADER-1x2-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /5370DAFA;
+Reference = R1;
+ValeurCmp = DNP;
+IdModule  = GSG-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53703213;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = GSG-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5370DB07;
+Reference = R3;
+ValeurCmp = 0;
+IdModule  = GSG-0402-SHORT-10MIL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B032AD;
+Reference = R4;
+ValeurCmp = 0;
+IdModule  = GSG-0402-SHORT-10MIL;
+EndCmp
+
+EndListe

@@ -1,0 +1,342 @@
+EESchema Schematic File Version 2  date Wed 09 Jul 2014 12:39:05 PM MDT
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SALSAFLOCK-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "9 jul 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MOSFET_N Q1
+U 1 1 5370319E
+P 7200 4200
+F 0 "Q1" H 7210 4370 60  0000 R CNN
+F 1 "MOSFET_N" V 7400 4400 60  0000 R CNN
+F 4 "Rohm Semiconductor" H 7200 4200 60  0001 C CNN "Manufacturer"
+F 5 "RUE003N02TL" H 7200 4200 60  0001 C CNN "Part Number"
+F 6 "MOSFET N-CH 20V 300MA EMT3" H 7200 4200 60  0001 C CNN "Description"
+	1    7200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 53703213
+P 6950 4500
+F 0 "R2" V 7030 4500 50  0000 C CNN
+F 1 "10k" V 6950 4500 50  0000 C CNN
+	1    6950 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 5370DAFA
+P 7650 3900
+F 0 "R1" V 7730 3900 50  0000 C CNN
+F 1 "DNP" V 7650 3900 50  0000 C CNN
+F 4 "DNP" V 7550 3900 60  0000 C CNN "Note"
+	1    7650 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 5370DB07
+P 7300 5200
+F 0 "R3" V 7380 5200 50  0000 C CNN
+F 1 "0" V 7300 5200 50  0000 C CNN
+F 4 "DNP" V 7200 5200 60  0000 C CNN "Note"
+	1    7300 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5370DB21
+P 7300 5550
+F 0 "#PWR01" H 7300 5550 30  0001 C CNN
+F 1 "GND" H 7300 5480 30  0001 C CNN
+	1    7300 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5370DB27
+P 8000 3900
+F 0 "#PWR02" H 8000 3900 30  0001 C CNN
+F 1 "GND" H 8000 3830 30  0001 C CNN
+	1    8000 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_2 P2
+U 1 1 53B03152
+P 7400 3050
+F 0 "P2" V 7350 3050 40  0000 C CNN
+F 1 "ANTENNA" V 7450 3050 40  0000 C CNN
+	1    7400 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 53B0316B
+P 7500 3500
+F 0 "#PWR03" H 7500 3500 30  0001 C CNN
+F 1 "GND" H 7500 3430 30  0001 C CNN
+	1    7500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P1
+U 1 1 53B03194
+P 3650 4200
+F 0 "P1" V 3600 4200 40  0000 C CNN
+F 1 "INPUT" V 3700 4200 40  0000 C CNN
+	1    3650 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 53B031B0
+P 4700 5100
+F 0 "#PWR04" H 4700 5100 30  0001 C CNN
+F 1 "GND" H 4700 5030 30  0001 C CNN
+	1    4700 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 53B032AD
+P 4700 4750
+F 0 "R4" V 4780 4750 50  0000 C CNN
+F 1 "0" V 4700 4750 50  0000 C CNN
+F 4 "DNP" V 4600 4750 60  0000 C CNN "Note"
+	1    4700 4750
+	-1   0    0    1   
+$EndComp
+Text Label 7300 3750 1    40   ~ 0
+DRAIN
+Text Label 6750 4200 0    40   ~ 0
+GATE
+Text Label 7300 4800 1    40   ~ 0
+SOURCE
+Text Notes 6550 4950 0    40   ~ 0
+Cut trace to install\nresistor on R3 or R4.
+$Comp
+L MOSFET_N Q?
+U 1 1 53BD8551
+P 6500 3550
+F 0 "Q?" H 6510 3720 60  0000 R CNN
+F 1 "MOSFET_N" V 6700 3750 60  0000 R CNN
+F 4 "Rohm Semiconductor" H 6500 3550 60  0001 C CNN "Manufacturer"
+F 5 "RUE003N02TL" H 6500 3550 60  0001 C CNN "Part Number"
+F 6 "MOSFET N-CH 20V 300MA EMT3" H 6500 3550 60  0001 C CNN "Description"
+	1    6500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53BD8575
+P 6600 3850
+F 0 "#PWR?" H 6600 3850 30  0001 C CNN
+F 1 "GND" H 6600 3780 30  0001 C CNN
+	1    6600 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 53BD859D
+P 5500 2550
+F 0 "R?" V 5580 2550 50  0000 C CNN
+F 1 "10k" V 5500 2550 50  0000 C CNN
+	1    5500 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 53BD8613
+P 5900 4200
+F 0 "C?" H 5950 4300 50  0000 L CNN
+F 1 "1uF" H 5950 4100 50  0000 L CNN
+	1    5900 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 53BD8718
+P 6600 2900
+F 0 "R?" V 6680 2900 50  0000 C CNN
+F 1 "1M" V 6600 2900 50  0000 C CNN
+	1    6600 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 53BD8720
+P 5950 2850
+F 0 "C?" H 6000 2950 50  0000 L CNN
+F 1 "22uF" H 6000 2750 50  0000 L CNN
+	1    5950 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 53BD8856
+P 4950 2550
+F 0 "D?" H 4950 2650 40  0000 C CNN
+F 1 "DIODE" H 4950 2450 40  0000 C CNN
+	1    4950 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 53BD8992
+P 4950 2250
+F 0 "D?" H 4950 2350 40  0000 C CNN
+F 1 "DIODE" H 4950 2150 40  0000 C CNN
+	1    4950 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2550 5950 2550
+Wire Wire Line
+	5950 2550 5850 2550
+Wire Wire Line
+	5850 2550 5750 2550
+Wire Wire Line
+	5700 4200 4500 4200
+Wire Wire Line
+	6100 4200 6200 4200
+Wire Wire Line
+	6200 4200 6600 4200
+Wire Wire Line
+	6600 4200 7000 4200
+Connection ~ 6200 3550
+Connection ~ 6200 4200
+Wire Wire Line
+	6600 2550 6600 2650
+Connection ~ 6600 3250
+Wire Wire Line
+	6600 3750 6600 3850
+Wire Wire Line
+	6600 3150 6600 3250
+Wire Wire Line
+	6600 3250 6600 3350
+Wire Wire Line
+	6200 3250 6600 3250
+Wire Wire Line
+	6200 3250 6200 3550
+Wire Wire Line
+	6200 3550 6200 4200
+Wire Wire Line
+	6300 3550 6200 3550
+Wire Notes Line
+	7450 5450 7300 5450
+Wire Notes Line
+	7450 4950 7450 5450
+Wire Notes Line
+	7300 4950 7450 4950
+Wire Notes Line
+	4850 5000 4700 5000
+Wire Notes Line
+	4850 4500 4850 5000
+Wire Notes Line
+	4700 4500 4850 4500
+Wire Wire Line
+	4700 5000 4700 5100
+Wire Wire Line
+	4700 4400 4700 4500
+Wire Wire Line
+	4500 4400 4700 4400
+Connection ~ 7300 4500
+Wire Wire Line
+	7200 4500 7300 4500
+Wire Wire Line
+	6600 4500 6700 4500
+Wire Wire Line
+	6600 4200 6600 4500
+Wire Wire Line
+	7300 5550 7300 5450
+Wire Wire Line
+	7300 4400 7300 4500
+Wire Wire Line
+	7300 4500 7300 4950
+Connection ~ 7300 3900
+Wire Wire Line
+	7400 3900 7300 3900
+Wire Wire Line
+	8000 3900 7900 3900
+Connection ~ 6600 4200
+Wire Wire Line
+	7300 3400 7300 3900
+Wire Wire Line
+	7300 3900 7300 4000
+Wire Wire Line
+	5850 2550 5850 2250
+Wire Wire Line
+	5850 2250 5150 2250
+Connection ~ 5850 2550
+Wire Wire Line
+	5150 2550 5250 2550
+Wire Wire Line
+	5950 2650 5950 2550
+Connection ~ 5950 2550
+Wire Wire Line
+	4500 2250 4750 2250
+Wire Wire Line
+	4500 2550 4750 2550
+$Comp
+L GND #PWR?
+U 1 1 53BD8AD7
+P 5950 3150
+F 0 "#PWR?" H 5950 3150 30  0001 C CNN
+F 1 "GND" H 5950 3080 30  0001 C CNN
+	1    5950 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3050 5950 3150
+Text Label 4500 2250 0    40   ~ 0
+KEY
+Text Label 4500 2550 0    40   ~ 0
+SCL
+Text Label 4500 4200 0    40   ~ 0
+RED
+Wire Wire Line
+	7500 3400 7500 3500
+$EndSCHEMATC

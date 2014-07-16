@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 15 Jul 2014 09:20:26 PM MDT
+EESchema Schematic File Version 2  date Tue 15 Jul 2014 09:32:45 PM MDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ Title "CONGAFLOCK"
 Date "16 jul 2014"
 Rev ""
 Comp "Copyright 2014 Michael Ossmann"
-Comment1 "License: GPL v2"
+Comment1 "License: GPL v2, https://github.com/mossmann/retroreflectors"
 Comment2 ""
 Comment3 ""
 Comment4 ""

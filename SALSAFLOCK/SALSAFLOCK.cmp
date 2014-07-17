@@ -1,10 +1,45 @@
-Cmp-Mod V01 Created by CvPcb (2012-nov-02)-stable date = Thu 03 Jul 2014 09:50:10 AM MDT
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-stable date = Thu 17 Jul 2014 04:08:32 PM MDT
 
 BeginCmp
-TimeStamp = /53B03194;
-Reference = P1;
-ValeurCmp = INPUT;
-IdModule  = GSG-50MIL-HEADER-1x2-TH;
+TimeStamp = /53BD8720;
+Reference = C1;
+ValeurCmp = 22uF;
+IdModule  = GSG-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BD8613;
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = GSG-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BD8992;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = GSG-0603D;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BD8856;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = GSG-0603D;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C80301;
+Reference = J1;
+ValeurCmp = DB15-VGA;
+IdModule  = GSG-DB15-VGA;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C8030E;
+Reference = J2;
+ValeurCmp = DB15-VGA;
+IdModule  = GSG-DB15-VGA;
 EndCmp
 
 BeginCmp
@@ -22,6 +57,13 @@ IdModule  = GSG-SOT416-GDS;
 EndCmp
 
 BeginCmp
+TimeStamp = /53BD8551;
+Reference = Q2;
+ValeurCmp = MOSFET_N;
+IdModule  = GSG-SOT416-GDS;
+EndCmp
+
+BeginCmp
 TimeStamp = /5370DAFA;
 Reference = R1;
 ValeurCmp = DNP;
@@ -31,7 +73,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53703213;
 Reference = R2;
-ValeurCmp = 100k;
+ValeurCmp = 10k;
 IdModule  = GSG-0402;
 EndCmp
 
@@ -47,6 +89,20 @@ TimeStamp = /53B032AD;
 Reference = R4;
 ValeurCmp = 0;
 IdModule  = GSG-0402-SHORT-10MIL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BD859D;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = GSG-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BD8718;
+Reference = R6;
+ValeurCmp = 1M;
+IdModule  = GSG-0402;
 EndCmp
 
 EndListe

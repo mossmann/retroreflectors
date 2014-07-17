@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 17 Jul 2014 09:13:24 AM MDT
+EESchema Schematic File Version 2  date Thu 17 Jul 2014 03:59:38 PM MDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -87,19 +87,19 @@ F 4 "DNP" V 7200 5200 60  0000 C CNN "Note"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR6
+L GND #PWR01
 U 1 1 5370DB21
 P 7300 5550
-F 0 "#PWR6" H 7300 5550 30  0001 C CNN
+F 0 "#PWR01" H 7300 5550 30  0001 C CNN
 F 1 "GND" H 7300 5480 30  0001 C CNN
 	1    7300 5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR4
+L GND #PWR02
 U 1 1 5370DB27
 P 8000 3900
-F 0 "#PWR4" H 8000 3900 30  0001 C CNN
+F 0 "#PWR02" H 8000 3900 30  0001 C CNN
 F 1 "GND" H 8000 3830 30  0001 C CNN
 	1    8000 3900
 	0    -1   -1   0   
@@ -114,19 +114,19 @@ F 1 "ANTENNA" V 7450 3050 40  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR2
+L GND #PWR03
 U 1 1 53B0316B
 P 7500 3500
-F 0 "#PWR2" H 7500 3500 30  0001 C CNN
+F 0 "#PWR03" H 7500 3500 30  0001 C CNN
 F 1 "GND" H 7500 3430 30  0001 C CNN
 	1    7500 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR5
+L GND #PWR04
 U 1 1 53B031B0
 P 4850 5100
-F 0 "#PWR5" H 4850 5100 30  0001 C CNN
+F 0 "#PWR04" H 4850 5100 30  0001 C CNN
 F 1 "GND" H 4850 5030 30  0001 C CNN
 	1    4850 5100
 	1    0    0    -1  
@@ -162,10 +162,10 @@ F 6 "MOSFET N-CH 20V 300MA EMT3" H 6500 3550 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR3
+L GND #PWR05
 U 1 1 53BD8575
 P 6600 3850
-F 0 "#PWR3" H 6600 3850 30  0001 C CNN
+F 0 "#PWR05" H 6600 3850 30  0001 C CNN
 F 1 "GND" H 6600 3780 30  0001 C CNN
 	1    6600 3850
 	1    0    0    -1  
@@ -225,17 +225,9 @@ F 1 "DIODE" H 4950 2150 40  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 2550 5850 2550
+	5750 2550 6600 2550
 Wire Wire Line
-	5850 2550 5950 2550
-Wire Wire Line
-	5950 2550 6600 2550
-Wire Wire Line
-	6100 4200 6200 4200
-Wire Wire Line
-	6200 4200 6600 4200
-Wire Wire Line
-	6600 4200 7000 4200
+	6100 4200 7000 4200
 Connection ~ 6200 3550
 Connection ~ 6200 4200
 Wire Wire Line
@@ -244,15 +236,11 @@ Connection ~ 6600 3250
 Wire Wire Line
 	6600 3750 6600 3850
 Wire Wire Line
-	6600 3150 6600 3250
-Wire Wire Line
-	6600 3250 6600 3350
+	6600 3150 6600 3350
 Wire Wire Line
 	6200 3250 6600 3250
 Wire Wire Line
-	6200 3250 6200 3550
-Wire Wire Line
-	6200 3550 6200 4200
+	6200 3250 6200 4200
 Wire Wire Line
 	6300 3550 6200 3550
 Wire Notes Line
@@ -283,9 +271,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 5550 7300 5450
 Wire Wire Line
-	7300 4400 7300 4500
-Wire Wire Line
-	7300 4500 7300 4950
+	7300 4400 7300 4950
 Connection ~ 7300 3900
 Wire Wire Line
 	7400 3900 7300 3900
@@ -293,9 +279,7 @@ Wire Wire Line
 	8000 3900 7900 3900
 Connection ~ 6600 4200
 Wire Wire Line
-	7300 3400 7300 3900
-Wire Wire Line
-	7300 3900 7300 4000
+	7300 3400 7300 4000
 Wire Wire Line
 	5850 2550 5850 2250
 Wire Wire Line
@@ -311,10 +295,10 @@ Wire Wire Line
 Wire Wire Line
 	2800 2550 4750 2550
 $Comp
-L GND #PWR1
+L GND #PWR06
 U 1 1 53BD8AD7
 P 5950 3150
-F 0 "#PWR1" H 5950 3150 30  0001 C CNN
+F 0 "#PWR06" H 5950 3150 30  0001 C CNN
 F 1 "GND" H 5950 3080 30  0001 C CNN
 	1    5950 3150
 	1    0    0    -1  
@@ -372,9 +356,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 1800 3800 5000
 Wire Wire Line
-	3900 1800 3900 4200
-Wire Wire Line
-	3900 4200 3900 5000
+	3900 1800 3900 5000
 Wire Wire Line
 	4000 1800 4000 5000
 Wire Wire Line
@@ -384,4 +366,11 @@ Wire Wire Line
 	3900 4200 5700 4200
 Text Label 4500 4400 0    40   ~ 0
 VGAGND
+Wire Wire Line
+	2550 5000 2550 1800
+Connection ~ 3200 2250
+Connection ~ 2800 2550
+Connection ~ 2700 4400
+Text Label 2550 3450 1    40   ~ 0
+SHIELD
 $EndSCHEMATC

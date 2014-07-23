@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 15 Jul 2014 09:32:45 PM MDT
+EESchema Schematic File Version 2  date Wed 23 Jul 2014 05:11:10 PM MDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr User 8500 5500
 encoding utf-8
 Sheet 1 1
 Title "CONGAFLOCK"
-Date "16 jul 2014"
+Date "23 jul 2014"
 Rev ""
 Comp "Copyright 2014 Michael Ossmann"
 Comment1 "License: GPL v2, https://github.com/mossmann/retroreflectors"
@@ -50,9 +50,9 @@ U 1 1 5370319E
 P 4750 2250
 F 0 "Q1" H 4760 2420 60  0000 R CNN
 F 1 "MOSFET_N" V 4950 2450 60  0000 R CNN
-F 4 "Rohm Semiconductor" H 4750 2250 60  0001 C CNN "Manufacturer"
-F 5 "RUE003N02TL" H 4750 2250 60  0001 C CNN "Part Number"
-F 6 "MOSFET N-CH 20V 300MA EMT3" H 4750 2250 60  0001 C CNN "Description"
+F 4 "NXP" H 4750 2250 60  0001 C CNN "Manufacturer"
+F 5 "NX3020NAKT,115" H 4750 2250 60  0001 C CNN "Part Number"
+F 6 "MOSFET N-CH 30V 180MA SC-75" H 4750 2250 60  0001 C CNN "Description"
 	1    4750 2250
 	1    0    0    -1  
 $EndComp

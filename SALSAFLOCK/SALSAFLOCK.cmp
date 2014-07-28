@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-nov-02)-stable date = Thu 17 Jul 2014 04:08:32 PM MDT
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-stable date = Sun 27 Jul 2014 09:28:24 PM MDT
 
 BeginCmp
 TimeStamp = /53BD8720;
@@ -18,14 +18,14 @@ BeginCmp
 TimeStamp = /53BD8992;
 Reference = D1;
 ValeurCmp = DIODE;
-IdModule  = GSG-0603D;
+IdModule  = GSG-SOT23-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BD8856;
 Reference = D2;
 ValeurCmp = DIODE;
-IdModule  = GSG-0603D;
+IdModule  = GSG-SOT23-3;
 EndCmp
 
 BeginCmp
@@ -53,14 +53,14 @@ BeginCmp
 TimeStamp = /5370319E;
 Reference = Q1;
 ValeurCmp = MOSFET_N;
-IdModule  = GSG-SOT416-GDS;
+IdModule  = GSG-SOT143B-GDS;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BD8551;
 Reference = Q2;
 ValeurCmp = MOSFET_N;
-IdModule  = GSG-SOT416-GDS;
+IdModule  = GSG-SOT143B-GDS;
 EndCmp
 
 BeginCmp

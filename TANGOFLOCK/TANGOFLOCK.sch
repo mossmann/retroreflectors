@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 28 Jul 2014 06:47:18 PM MDT
+EESchema Schematic File Version 2  date Mon 28 Jul 2014 08:58:28 PM MDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -72,52 +72,16 @@ F 1 "10k" V 4500 2550 50  0000 C CNN
 $EndComp
 Connection ~ 4150 2250
 $Comp
-L R R1
-U 1 1 5370DAFA
-P 5200 1950
-F 0 "R1" V 5280 1950 50  0000 C CNN
-F 1 "DNP" V 5200 1950 50  0000 C CNN
-F 4 "DNP" V 5100 1950 60  0000 C CNN "Note"
-	1    5200 1950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R3
-U 1 1 5370DB07
-P 4850 3250
-F 0 "R3" V 4930 3250 50  0000 C CNN
-F 1 "0" V 4850 3250 50  0000 C CNN
-F 4 "DNP" V 4750 3250 60  0000 C CNN "Note"
-	1    4850 3250
-	-1   0    0    1   
-$EndComp
-$Comp
 L GND #PWR01
 U 1 1 5370DB21
-P 4850 3600
-F 0 "#PWR01" H 4850 3600 30  0001 C CNN
-F 1 "GND" H 4850 3530 30  0001 C CNN
-	1    4850 3600
+P 4850 3000
+F 0 "#PWR01" H 4850 3000 30  0001 C CNN
+F 1 "GND" H 4850 2930 30  0001 C CNN
+	1    4850 3000
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR02
-U 1 1 5370DB27
-P 5550 1950
-F 0 "#PWR02" H 5550 1950 30  0001 C CNN
-F 1 "GND" H 5550 1880 30  0001 C CNN
-	1    5550 1950
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5550 1950 5450 1950
-Wire Wire Line
-	4950 1950 4850 1950
-Connection ~ 4850 1950
 Wire Wire Line
 	4850 2450 4850 3000
-Wire Wire Line
-	4850 3600 4850 3500
 Wire Wire Line
 	4150 2250 4150 2550
 Wire Wire Line
@@ -151,14 +115,6 @@ Text Label 3800 2250 0    40   ~ 0
 GATE
 Text Label 4850 2850 1    40   ~ 0
 SOURCE
-Text Notes 5050 3050 0    40   ~ 0
-Cut trace to install\nresistor on R3.
-Wire Notes Line
-	4850 3000 5000 3000
-Wire Notes Line
-	5000 3000 5000 3500
-Wire Notes Line
-	5000 3500 4850 3500
 Text Notes 5250 1100 0    40   ~ 0
 Connect dipole to pins 1 and 2\nor connect monopole to pin 1.
 $Comp

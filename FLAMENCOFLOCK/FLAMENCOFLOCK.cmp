@@ -1,17 +1,17 @@
-Cmp-Mod V01 Created by CvPcb (2012-nov-02)-stable date = Mon 28 Jul 2014 11:38:46 AM MDT
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-stable date = Mon 28 Jul 2014 08:51:00 PM MDT
 
 BeginCmp
 TimeStamp = /53D68AB2;
 Reference = J1;
 ValeurCmp = MINIDIN6;
-IdModule  = ;
+IdModule  = GSG-MD-6006;
 EndCmp
 
 BeginCmp
 TimeStamp = /53D68AC9;
 Reference = J2;
 ValeurCmp = MINIDIN6;
-IdModule  = ;
+IdModule  = GSG-MD-6006;
 EndCmp
 
 BeginCmp
@@ -29,31 +29,10 @@ IdModule  = GSG-SOT143B-GDS;
 EndCmp
 
 BeginCmp
-TimeStamp = /5370DAFA;
-Reference = R1;
-ValeurCmp = DNP;
-IdModule  = GSG-0402;
-EndCmp
-
-BeginCmp
 TimeStamp = /53703213;
 Reference = R2;
 ValeurCmp = 10k;
 IdModule  = GSG-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /5370DB07;
-Reference = R3;
-ValeurCmp = 0;
-IdModule  = GSG-0402-SHORT-10MIL;
-EndCmp
-
-BeginCmp
-TimeStamp = /53B032AD;
-Reference = R4;
-ValeurCmp = 0;
-IdModule  = GSG-0402-SHORT-10MIL;
 EndCmp
 
 EndListe

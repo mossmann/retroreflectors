@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-stable date = Mon 28 Jul 2014 06:47:39 PM MDT
+
+BeginCmp
+TimeStamp = /53D68D76;
+Reference = J1;
+ValeurCmp = USB-DEVICE-SHIELD;
+IdModule  = GSG-USB-A-1001-010-01001-SHIELD;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D68D8D;
+Reference = J2;
+ValeurCmp = USB-DEVICE-SHIELD;
+IdModule  = GSG-USB-A1HSW6;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B03152;
+Reference = P2;
+ValeurCmp = ANTENNA;
+IdModule  = GSG-50MIL-HEADER-1x2-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /5370319E;
+Reference = Q1;
+ValeurCmp = MOSFET_N;
+IdModule  = GSG-SOT143B-GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5370DAFA;
+Reference = R1;
+ValeurCmp = DNP;
+IdModule  = GSG-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53703213;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = GSG-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5370DB07;
+Reference = R3;
+ValeurCmp = 0;
+IdModule  = GSG-0402-SHORT-10MIL;
+EndCmp
+
+EndListe

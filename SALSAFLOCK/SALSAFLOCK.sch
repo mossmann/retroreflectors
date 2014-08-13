@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 12 Aug 2014 10:44:59 PM MDT
+EESchema Schematic File Version 2  date Tue 12 Aug 2014 10:48:10 PM MDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -181,7 +181,7 @@ L R R6
 U 1 1 53BD8718
 P 6600 2900
 F 0 "R6" V 6680 2900 50  0000 C CNN
-F 1 "1M" V 6600 2900 50  0000 C CNN
+F 1 "10k" V 6600 2900 50  0000 C CNN
 	1    6600 2900
 	-1   0    0    1   
 $EndComp

@@ -502,7 +502,7 @@
     (fp_text reference R6 (at 0 0.0508) (layer F.SilkS)
       (effects (font (size 0.4064 0.4064) (thickness 0.1016)))
     )
-    (fp_text value 1M (at 0 0.0508) (layer F.SilkS) hide
+    (fp_text value 10k (at 0 0.0508) (layer F.SilkS) hide
       (effects (font (size 0.4064 0.4064) (thickness 0.1016)))
     )
     (fp_line (start 0.889 -0.381) (end 0.889 0.381) (layer F.SilkS) (width 0.2032))
@@ -731,8 +731,8 @@
   (segment (start 131 88) (end 131 81.8) (width 0.254) (layer F.Cu) (net 5) (tstamp 53C84483))
   (segment (start 119 100) (end 131 88) (width 0.254) (layer F.Cu) (net 5) (tstamp 53C84482))
   (via (at 119 100) (size 0.889) (layers F.Cu B.Cu) (net 5))
-  (segment (start 135.85 98.4) (end 136.0332 98.4) (width 0.254) (layer F.Cu) (net 7) (status C00000))
-  (segment (start 136.0332 98.4) (end 136.6666 99.0334) (width 0.254) (layer F.Cu) (net 7) (tstamp 53EAED6D) (status 400000))
+  (segment (start 135.85 98.4) (end 136.0332 98.4) (width 0.254) (layer F.Cu) (net 7))
+  (segment (start 136.0332 98.4) (end 136.6666 99.0334) (width 0.254) (layer F.Cu) (net 7) (tstamp 53EAED6D))
   (segment (start 136.6666 99.6) (end 136.6666 99.0334) (width 0.254) (layer F.Cu) (net 7))
   (segment (start 137.25 98.7) (end 137.55 98.4) (width 0.254) (layer F.Cu) (net 7) (tstamp 53D5CAC3))
   (segment (start 137 98.7) (end 137.25 98.7) (width 0.254) (layer F.Cu) (net 7) (tstamp 53D5CABE))

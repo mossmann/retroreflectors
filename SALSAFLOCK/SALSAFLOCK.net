@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mossmann/src/retroreflectors/SALSAFLOCK/SALSAFLOCK.sch)
-    (date "Tue 12 Aug 2014 10:45:04 PM MDT")
+    (date "Tue 12 Aug 2014 10:48:14 PM MDT")
     (tool "eeschema (2012-nov-02)-stable"))
   (components
     (comp (ref R2)
@@ -55,7 +55,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 53BD8613))
     (comp (ref R6)
-      (value 1M)
+      (value 10k)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 53BD8718))

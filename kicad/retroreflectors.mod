@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Mon 28 Jul 2014 08:15:30 PM MDT
+PCBNEW-LibModule-V1  Tue 12 Aug 2014 09:41:27 PM MDT
 # encoding utf-8
 Units mm
 $INDEX
@@ -388,7 +388,7 @@ Po -4.85 2.54
 $EndPAD
 $EndMODULE GSG-DB15-VGA
 $MODULE GSG-MD-6006
-Po 0 0 0 15 53D703B5 00000000 ~~
+Po 0 0 0 15 53EADE62 00000000 ~~
 Li GSG-MD-6006
 Sc 0
 AR 
@@ -425,42 +425,42 @@ Ne 0 ""
 Po -6.5 0.8
 $EndPAD
 $PAD
-Sh "4" C 1.5 1.5 0 0 0
+Sh "3" C 1.5 1.5 0 0 0
 Dr 0.9 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -3.405 3.8
 $EndPAD
 $PAD
-Sh "5" C 1.5 1.5 0 0 0
+Sh "6" C 1.5 1.5 0 0 0
 Dr 0.9 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 3.405 6.3
 $EndPAD
 $PAD
-Sh "6" C 1.5 1.5 0 0 0
+Sh "5" C 1.5 1.5 0 0 0
 Dr 0.9 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -3.405 6.3
 $EndPAD
 $PAD
-Sh "1" C 1.5 1.5 0 0 0
+Sh "2" C 1.5 1.5 0 0 0
 Dr 0.9 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 1.295 3.8
 $EndPAD
 $PAD
-Sh "2" C 1.5 1.5 0 0 0
+Sh "1" C 1.5 1.5 0 0 0
 Dr 0.9 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -1.295 3.8
 $EndPAD
 $PAD
-Sh "3" C 1.5 1.5 0 0 0
+Sh "4" C 1.5 1.5 0 0 0
 Dr 0.9 0 0
 At STD N 00E0FFFF
 Ne 0 ""

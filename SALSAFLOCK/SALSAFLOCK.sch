@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 27 Jul 2014 09:41:48 PM MDT
+EESchema Schematic File Version 2  date Tue 12 Aug 2014 10:44:59 PM MDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "28 jul 2014"
+Date "13 aug 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -133,12 +133,12 @@ Text Label 7300 3750 1    40   ~ 0
 DRAIN
 Text Label 6750 4200 0    40   ~ 0
 GATE
-Text Label 7300 4800 1    40   ~ 0
+Text Label 7300 4900 1    40   ~ 0
 SOURCE
 Text Notes 6550 4950 0    40   ~ 0
 Cut trace to install\nresistor on R3 or R4.
 $Comp
-L MOSFET_N Q2
+L MOS_N4 Q2
 U 1 1 53BD8551
 P 6500 3550
 F 0 "Q2" H 6510 3720 60  0000 R CNN
@@ -152,10 +152,10 @@ $EndComp
 $Comp
 L GND #PWR3
 U 1 1 53BD8575
-P 6600 3850
-F 0 "#PWR3" H 6600 3850 30  0001 C CNN
-F 1 "GND" H 6600 3780 30  0001 C CNN
-	1    6600 3850
+P 6600 3950
+F 0 "#PWR3" H 6600 3950 30  0001 C CNN
+F 1 "GND" H 6600 3880 30  0001 C CNN
+	1    6600 3950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -204,7 +204,7 @@ Wire Wire Line
 	6600 2550 6600 2650
 Connection ~ 6600 3250
 Wire Wire Line
-	6600 3750 6600 3850
+	6600 3750 6600 3950
 Wire Wire Line
 	6600 3150 6600 3350
 Wire Wire Line
@@ -368,7 +368,7 @@ F 6 "DIODE SCHOTTKY 30V 0.2A SOT23-3" H 4950 2550 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOSFET_N Q1
+L MOS_N4 Q1
 U 1 1 53D5C0DC
 P 7200 4200
 F 0 "Q1" H 7210 4370 60  0000 R CNN
@@ -379,4 +379,18 @@ F 6 "MOSFET N-CH 10V 50MA SOT-143B" H 7200 4200 60  0001 C CNN "Description"
 	1    7200 4200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6650 3550 6750 3550
+Wire Wire Line
+	6750 3550 6750 3850
+Wire Wire Line
+	6750 3850 6600 3850
+Connection ~ 6600 3850
+Wire Wire Line
+	7350 4200 7450 4200
+Wire Wire Line
+	7450 4200 7450 4600
+Wire Wire Line
+	7450 4600 7300 4600
+Connection ~ 7300 4600
 $EndSCHEMATC

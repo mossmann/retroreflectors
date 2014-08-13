@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 28 Jul 2014 08:58:28 PM MDT
+EESchema Schematic File Version 2  date Tue 12 Aug 2014 10:43:27 PM MDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr User 8500 5500
 encoding utf-8
 Sheet 1 1
 Title "TANGOFLOCK"
-Date "29 jul 2014"
+Date "13 aug 2014"
 Rev ""
 Comp "Copyright 2014 Michael Ossmann"
 Comment1 "License: GPL v2, https://github.com/mossmann/retroreflectors"
@@ -46,7 +46,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MOSFET_N Q1
+L MOS_N4 Q1
 U 1 1 5370319E
 P 4750 2250
 F 0 "Q1" H 4760 2420 60  0000 R CNN
@@ -113,7 +113,7 @@ Text Label 4850 1800 1    40   ~ 0
 DRAIN
 Text Label 3800 2250 0    40   ~ 0
 GATE
-Text Label 4850 2850 1    40   ~ 0
+Text Label 4850 2950 1    40   ~ 0
 SOURCE
 Text Notes 5250 1100 0    40   ~ 0
 Connect dipole to pins 1 and 2\nor connect monopole to pin 1.
@@ -162,4 +162,11 @@ Wire Wire Line
 	2700 2450 3000 2450
 Wire Wire Line
 	3000 2450 3000 2550
+Wire Wire Line
+	4900 2250 5000 2250
+Wire Wire Line
+	5000 2250 5000 2650
+Wire Wire Line
+	5000 2650 4850 2650
+Connection ~ 4850 2650
 $EndSCHEMATC

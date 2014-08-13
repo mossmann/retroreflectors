@@ -1,8 +1,12 @@
-EESchema-DOCLIB  Version 2.0  Date: Mon 28 Jul 2014 11:48:45 AM MDT
+EESchema-DOCLIB  Version 2.0  Date: Tue 12 Aug 2014 09:59:09 PM MDT
 #
 $CMP DIODE-SOT23-3
 D Diode SOT23-3
 K DEV DIODE
+$ENDCMP
+#
+$CMP MOS_N4
+F transistors/mos/*.*
 $ENDCMP
 #
 #End Doc Library

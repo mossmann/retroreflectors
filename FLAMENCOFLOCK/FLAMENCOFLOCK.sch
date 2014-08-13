@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 28 Jul 2014 08:57:02 PM MDT
+EESchema Schematic File Version 2  date Tue 12 Aug 2014 10:41:50 PM MDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr User 8500 5500
 encoding utf-8
 Sheet 1 1
 Title "FLAMENCOFLOCK"
-Date "29 jul 2014"
+Date "13 aug 2014"
 Rev ""
 Comp "Copyright 2014 Michael Ossmann"
 Comment1 "License: GPL v2, https://github.com/mossmann/retroreflectors"
@@ -46,7 +46,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MOSFET_N Q1
+L MOS_N4 Q1
 U 1 1 5370319E
 P 4250 2250
 F 0 "Q1" H 4260 2420 60  0000 R CNN
@@ -120,7 +120,7 @@ Text Label 4350 1800 1    40   ~ 0
 DRAIN
 Text Label 3300 2250 0    40   ~ 0
 GATE
-Text Label 4350 2850 1    40   ~ 0
+Text Label 4350 2900 1    40   ~ 0
 SOURCE
 Text Notes 4750 1100 0    40   ~ 0
 Connect dipole to pins 1 and 2\nor connect monopole to pin 1.
@@ -182,4 +182,11 @@ Wire Wire Line
 Connection ~ 2950 2500
 Wire Wire Line
 	4350 2450 4350 2950
+Wire Wire Line
+	4400 2250 4500 2250
+Wire Wire Line
+	4500 2250 4500 2650
+Wire Wire Line
+	4500 2650 4350 2650
+Connection ~ 4350 2650
 $EndSCHEMATC
